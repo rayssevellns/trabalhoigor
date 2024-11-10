@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block title %}Erro 403{% endblock %}
+
+{% block content %}
+<div class="px-4 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">Erro 403 - Acesso negado! 🔒</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+            Essa aréa é disponível apenas para certos usuários! Erro 403.
+            Continue acessanndo nosso site, é um prazer te-lo aqui!
+        </p>
+    </div>
+</div>
+{% endblock %}
