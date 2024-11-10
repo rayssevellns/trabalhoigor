@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block title %}Erro 500{% endblock %}
+
+{% block content %}
+<div class="px-4 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">Erro 500 - Algo não saiu como planejado! 🚧</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+           ERRO 500! Falha no nosso sistema, peço que tenha paciência estamos arrumando
+            Enquanto isso, fique à vontade para dar uma olhadinha em outras páginas. 😉
+        </p>
+    </div>
+</div>
+{% endblock %}
