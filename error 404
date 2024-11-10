@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+
+{% block title %}Erro 404{% endblock %}
+
+{% block content %}
+<div class="px-4 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">Erro 404 - Não encontramos o que você procura! 🔍</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+            ERRO 404!
+            Procure outras seções, teremos algo do seu interesse
+
+            Vamos continuar a exploração juntos? 😊
+        </p>
+    </div>
+</div>
+{% endblock %}
